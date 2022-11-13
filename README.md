@@ -1,4 +1,3 @@
-BikeShare 
 In this project, I analyzed bike usage data of annual members and casual bike riders from last 12 months. The business task was to convert maximum number of casual riders to member riders, with purchased memberships. The data consisted of over 1 billion rows, which made using R a better choice to analyze it. 
 First, I installed and loaded tidyverse, janitor, and lubridate packages in RStudio. 
 Next, I imported bike usage data from July 2021 to June 2022 into RStudio, and created a new dataframe by merging 12 different datasets from 12 different months. After that, I cleaned the new merged dataframe by removing extra spaces etc and removing empty columns and rows.
